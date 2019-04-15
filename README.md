@@ -1,3 +1,9 @@
+it is a fork from fastify@2.2.0
+
+### Change
+
+add log option to use incoming request log
+
 <div align="center">
 <img src="https://github.com/fastify/graphics/raw/master/full-logo.png" width="650" height="auto"/>
 </div>

@@ -287,6 +287,9 @@ function build (options) {
       }
     }
 
+    if (options.logReqIgnore && options.logIgnore.indexOf(req.url) > -1) {
+      options.logIgnore = 'error'
+    }
     var childLogger = logger.child({ [requestIdLogLabel]: req.id, level: context.logLevel })
 
     // added hostname, ip, and ips back to the Node req object to maintain backward compatibility

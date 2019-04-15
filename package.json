@@ -1,6 +1,6 @@
 {
-  "name": "fastify",
-  "version": "2.2.0",
+  "name": "@phantomk94/fastify",
+  "version": "0.2.0",
   "description": "Fast and low overhead web framework, for Node.js",
   "main": "fastify.js",
   "typings": "fastify.d.ts",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fastify/fastify.git"
+    "url": "git+https://github.com/phantomk/fastify.git"
   },
   "keywords": [
     "web",
